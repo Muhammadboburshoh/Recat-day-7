@@ -1,3 +1,18 @@
+.container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+select {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
 input {
   padding: 10px;
   margin-right: 20px;

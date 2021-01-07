@@ -1,0 +1,13 @@
+header {
+  padding: 60px 0;
+}
+
+.dark {
+  background-color: #123;
+  color: #fff;
+}
+
+.light {
+  background-color: #f0f0f0;
+  color: #123;
+}
