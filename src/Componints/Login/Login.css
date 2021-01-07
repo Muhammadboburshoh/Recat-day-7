@@ -6,13 +6,6 @@
   margin-left: auto;
 }
 
-select {
-  display: block;
-  margin-bottom: 20px;
-  padding: 10px;
-  font-size: 16px;
-}
-
 input {
   padding: 10px;
   margin-right: 20px;

@@ -1,11 +1,17 @@
+import { useContext } from "react"
 import "./Footer.css"
 
-function Footer () {
+import { ThemeContext } from "../../ThemeContext"
+
+function Footer ({children}) {
+
+  const { theme } = useContext(ThemeContext)
+  console.log(theme)
 
   return (
     <>
-    <footer className="dark">
-      <p>&copy; Copyright 2020</p>
+    <footer className={theme}>
+      {children}
     </footer>
     </>
   )

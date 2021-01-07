@@ -12,7 +12,10 @@ function App() {
     <>
       <Header />
       <Login />
-      <Footer />
+
+      <Footer>
+        <p>&copy; Copyright 2020</p>
+      </Footer>
     </>
   )
 }

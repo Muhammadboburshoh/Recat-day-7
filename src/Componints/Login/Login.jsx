@@ -22,11 +22,7 @@ function Login () {
     <>
 
       <div className="container">
-        <select name="theme" id="themeSelect">
-          <option value="dark">Dark</option>
-          <option value="light">Light</option>
-        </select>
-
+        
         <input onChange={evt => { setUserName(evt.target.value)}} type="text" placeholder="John"/>
 
         <input onChange={evt => { setUserPassword(evt.target.value)}} type="password" placeholder="password" />
